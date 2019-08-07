@@ -1,9 +1,11 @@
 import React from "react";
-import{ render } from "react-dom";
+import Crt from './components/Crt';
  
 function App () {
     return (
-        <div>Hi there</div>
+        <div>
+            <Crt />
+        </div>
     )
 }
 
